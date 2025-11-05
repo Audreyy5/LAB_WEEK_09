@@ -193,7 +193,7 @@ data class Student(
 fun ResultContent(students: List<Student>) {
     LazyColumn(
         modifier = Modifier
-            .padding(vertical = 4.dp)
+            .padding(vertical = 3.dp)
             .fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
